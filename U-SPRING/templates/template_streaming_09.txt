@@ -1,0 +1,22 @@
+# format for components:
+# source name
+# or
+# linear name nr_inputs nr_outputs [cpu_size_coeffs] [mem_size_coeffs] [[output_rate_coeffs]]
+
+# format for arcs:
+# source_component output_of_source target_component input_of_target
+
+# Video streaming template with 10 data sources, corresponding to netflix statistic (falseaverages-2016-06.csv)
+
+components:
+source S09
+linear SRV09 1 1 [0.1,0] [0.1,0] [[2,0]]
+linear DPI09 1 1 [0.08,0] [0.04,0] [[0.8,0]]
+linear OPT09 1 1 [0.06,0] [0.06,0] [[1.5,0]]
+linear CHE09 1 0 [0,10] [0,50] []
+arcs:
+S09 1 SRV09 1
+SRV09 1 DPI09 1 
+DPI09 1 OPT09 1
+OPT09 1 CHE09 1
+eof

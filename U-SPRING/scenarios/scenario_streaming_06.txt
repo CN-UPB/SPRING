@@ -1,0 +1,100 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app1 templates/template_streaming_05.txt
+data_source 2 app1 AUS05 10 
+data_source 3 app1 BEL05 10
+data_source 4 app1 DEN05 10
+data_source 5 app1 GER05 10
+data_source 6 app1 LUX05 10
+data_source 7 app1 NET05 10
+data_source 8 app1 NOR05 10
+data_source 9 app1 SIN05 10
+data_source 10 app1 SWE05 10
+data_source 11 app1 SWI05 10
+data_source 2 app1 AUS05 100 
+data_source 3 app1 BEL05 100
+data_source 4 app1 DEN05 100
+data_source 5 app1 GER05 100
+data_source 6 app1 LUX05 100
+data_source 7 app1 NET05 100
+data_source 8 app1 NOR05 100
+data_source 9 app1 SIN05 100
+data_source 10 app1 SWE05 100
+data_source 11 app1 SWI05 100 
+new_app app2 templates/template_streaming_06.txt
+data_source 18 app2 AUS06 10
+data_source 17 app2 BEL06 10
+data_source 16 app2 DEN06 10
+data_source 15 app2 GER06 10
+data_source 14 app2 LUX06 10
+data_source 13 app2 NET06 10
+data_source 12 app2 NOR06 10
+data_source 11 app2 SIN06 10
+data_source 10 app2 SWE06 10
+data_source 9 app2 SWI06 10 
+data_source 2 app1 AUS05 1000 
+data_source 3 app1 BEL05 1000
+data_source 4 app1 DEN05 1000
+data_source 5 app1 GER05 1000
+data_source 6 app1 LUX05 1000
+data_source 7 app1 NET05 1000
+data_source 8 app1 NOR05 1000
+data_source 9 app1 SIN05 1000
+data_source 10 app1 SWE05 1000
+data_source 11 app1 SWI05 1000
+data_source 18 app2 AUS06 100
+data_source 17 app2 BEL06 100
+data_source 16 app2 DEN06 100
+data_source 15 app2 GER06 100
+data_source 14 app2 LUX06 100
+data_source 13 app2 NET06 100
+data_source 12 app2 NOR06 100
+data_source 11 app2 SIN06 100
+data_source 10 app2 SWE06 100
+data_source 9 app2 SWI06 100 
+data_source 2 app1 AUS05 100 
+data_source 3 app1 BEL05 100
+data_source 4 app1 DEN05 100
+data_source 5 app1 GER05 100
+data_source 6 app1 LUX05 100
+data_source 7 app1 NET05 100
+data_source 8 app1 NOR05 100
+data_source 9 app1 SIN05 100
+data_source 10 app1 SWE05 100
+data_source 11 app1 SWI05 100 
+data_source 18 app2 AUS06 10
+data_source 17 app2 BEL06 10
+data_source 16 app2 DEN06 10
+data_source 15 app2 GER06 10
+data_source 14 app2 LUX06 10
+data_source 13 app2 NET06 10
+data_source 12 app2 NOR06 10
+data_source 11 app2 SIN06 10
+data_source 10 app2 SWE06 10
+data_source 9 app2 SWI06 10
+data_source 2 app1 AUS05 100 
+data_source 3 app1 BEL05 80
+data_source 4 app1 DEN05 70
+data_source 5 app1 GER05 60
+data_source 6 app1 LUX05 50
+data_source 7 app1 NET05 40
+data_source 8 app1 NOR05 30
+data_source 9 app1 SIN05 20
+data_source 10 app1 SWE05 10
+data_source 11 app1 SWI05 0
+remove_app app1 
+data_source 18 app2 AUS06 1000
+data_source 17 app2 BEL06 1000
+data_source 16 app2 DEN06 1000
+data_source 15 app2 GER06 1000
+data_source 14 app2 LUX06 1000
+data_source 13 app2 NET06 1000
+data_source 12 app2 NOR06 1000
+data_source 11 app2 SIN06 1000
+data_source 10 app2 SWE06 1000
+data_source 9 app2 SWI06 1000
+eof

@@ -1,0 +1,13 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app7 templates/template_streaming_10.txt
+data_source 0 app7 A07 150
+data_source 1 app7 B07 150
+data_source 2 app7 C07 150
+data_source 3 app7 D07 150
+data_source 4 app7 E07 150
+eof

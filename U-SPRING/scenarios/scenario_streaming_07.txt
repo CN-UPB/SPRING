@@ -1,0 +1,75 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app7 templates/template_streaming_07.txt
+data_source 0 app7 A07 10
+data_source 1 app7 B07 30
+data_source 2 app7 C07 50
+data_source 3 app7 D07 70
+data_source 4 app7 E07 90
+new_app app71 templates/template_streaming_07_1.txt
+data_source 5 app71 A071 10
+data_source 6 app71 B071 30
+data_source 7 app71 C071 50
+data_source 8 app71 D071 70
+data_source 9 app71 E071 90
+data_source 0 app7 A07 20
+data_source 1 app7 B07 40
+data_source 2 app7 C07 60
+data_source 3 app7 D07 80
+data_source 4 app7 E07 100
+new_app app72 templates/template_streaming_07_2.txt
+data_source 10 app72 A072 10
+data_source 11 app72 B072 30
+data_source 12 app72 C072 50
+data_source 13 app72 D072 70
+data_source 14 app72 E072 90
+data_source 0 app7 A07 90
+data_source 1 app7 B07 70
+data_source 2 app7 C07 50
+data_source 3 app7 D07 30
+data_source 4 app7 E07 10
+data_source 5 app71 A071 20
+data_source 6 app71 B071 40
+data_source 7 app71 C071 60
+data_source 8 app71 D071 80
+data_source 9 app71 E071 100
+new_app app73 templates/template_streaming_07_3.txt
+data_source 15 app73 A073 10
+data_source 16 app73 B073 30
+data_source 17 app73 C073 50
+data_source 18 app73 D073 70
+data_source 19 app73 E073 90
+remove_app app7 
+data_source 5 app71 A071 90
+data_source 6 app71 B071 70
+data_source 7 app71 C071 50
+data_source 8 app71 D071 30
+data_source 9 app71 E071 10
+data_source 10 app72 A072 20
+data_source 11 app72 B072 40
+data_source 12 app72 C072 60
+data_source 13 app72 D072 80
+data_source 14 app72 E072 100
+data_source 15 app73 A073 20
+data_source 16 app73 B073 40
+data_source 17 app73 C073 60
+data_source 18 app73 D073 80
+data_source 19 app73 E073 100
+remove_app app71 
+data_source 10 app72 A072 90
+data_source 11 app72 B072 70
+data_source 12 app72 C072 50
+data_source 13 app72 D072 30
+data_source 14 app72 E072 10
+data_source 15 app73 A073 90
+data_source 16 app73 B073 70
+data_source 17 app73 C073 50
+data_source 18 app73 D073 30
+data_source 19 app73 E073 10
+remove_app app72 
+remove_app app73
+eof

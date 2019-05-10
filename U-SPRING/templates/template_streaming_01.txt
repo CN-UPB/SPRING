@@ -1,0 +1,28 @@
+# format for components:
+# source name
+# or
+# linear name nr_inputs nr_outputs [cpu_size_coeffs] [mem_size_coeffs] [[output_rate_coeffs]]
+
+# format for arcs:
+# source_component output_of_source target_component input_of_target
+
+# This template stems from 
+
+components:
+source T01DS01
+source T01DS02
+source T01DS03
+source T01DS04
+source T01DS05
+linear T01SRV 5 1 [0.5,0.5,0.5,0.5,0.5,0] [0.5,0.5,0.5,0.5,0.5,0] [[1,1,1,1,1,0]]
+linear T01DPI 1 1 [0.8,0] [0.8,0] [[1,0]]
+linear T01OPT 1 0 [0.6,0] [0.6,0] []
+arcs:
+T01DS01 1 T01SRV 1
+T01DS02 1 T01SRV 2
+T01DS03 1 T01SRV 3
+T01DS04 1 T01SRV 4
+T01DS05 1 T01SRV 5
+T01SRV 1 T01DPI 1
+T01DPI 1 T01OPT 1
+eof

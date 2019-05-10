@@ -1,0 +1,71 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app1 templates/template_streaming_08.txt
+data_source 0 app1 A08 10
+data_source 4 app1 B08 20
+data_source 8 app1 C08 30
+data_source 12 app1 D08 40
+data_source 16 app1 E08 50
+data_source 0 app1 A08 100
+data_source 4 app1 B08 200
+data_source 8 app1 C08 300
+data_source 12 app1 D08 400
+data_source 16 app1 E08 500
+data_source 0 app1 A08 900
+data_source 4 app1 B08 900
+data_source 8 app1 C08 900
+data_source 12 app1 D08 900
+data_source 16 app1 E08 900
+data_source 0 app1 A08 1000
+data_source 4 app1 B08 2000
+data_source 8 app1 C08 4000
+data_source 12 app1 D08 6000
+data_source 16 app1 E08 8000
+data_source 0 app1 A08 9000
+data_source 4 app1 B08 9000
+data_source 8 app1 C08 9000
+data_source 12 app1 D08 9000
+data_source 16 app1 E08 9000
+data_source 0 app1 A08 10000
+data_source 4 app1 B08 10000
+data_source 8 app1 C08 10000
+data_source 12 app1 D08 10000
+data_source 16 app1 E08 10000
+new_app app2 templates/template_streaming_08_1.txt
+data_source 1 app1 A081 10000
+data_source 5 app1 B081 10000
+data_source 9 app1 C081 10000
+data_source 13 app1 D081 10000
+data_source 17 app1 E081 10000
+data_source 1 app1 A081 9000
+data_source 5 app1 B081 9000
+data_source 9 app1 C081 9000
+data_source 13 app1 D081 9000
+data_source 17 app1 E081 9000
+data_source 1 app1 A081 8000
+data_source 5 app1 B081 6000
+data_source 9 app1 C081 4000
+data_source 13 app1 D081 2000
+data_source 17 app1 E081 1000
+data_source 1 app1 A081 900
+data_source 5 app1 B081 900
+data_source 9 app1 C081 900
+data_source 13 app1 D081 900
+data_source 17 app1 E081 900
+data_source 1 app1 A081 500
+data_source 5 app1 B081 400
+data_source 9 app1 C081 300
+data_source 13 app1 D081 200
+data_source 17 app1 E081 100
+data_source 1 app1 A081 50
+data_source 5 app1 B081 40
+data_source 9 app1 C081 30
+data_source 13 app1 D081 20
+data_source 17 app1 E081 10
+remove_app app1
+remove_app app2
+eof

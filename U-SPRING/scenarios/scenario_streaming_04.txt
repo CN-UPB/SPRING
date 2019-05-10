@@ -1,0 +1,48 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app1 templates/template_streaming_04.txt
+data_source 2 app1 AUS02 3.64 
+data_source 3 app1 BEL02 4.12
+data_source 4 app1 DEN02 3.85
+data_source 5 app1 GER02 3.79
+data_source 6 app1 LUX02 4.08
+data_source 7 app1 NET02 3.99
+data_source 8 app1 NOR02 3.87
+data_source 9 app1 SIN02 0
+data_source 10 app1 SWE02 3.79
+data_source 11 app1 SWI02 4 
+data_source 2 app1 AUS02 3.27 
+data_source 3 app1 BEL02 4.13
+data_source 4 app1 DEN02 3.94
+data_source 5 app1 GER02 3.79
+data_source 6 app1 LUX02 4.10
+data_source 7 app1 NET02 4.02
+data_source 8 app1 NOR02 3.87
+data_source 9 app1 SIN02 0
+data_source 10 app1 SWE02 3.94
+data_source 11 app1 SWI02 3.97 
+data_source 2 app1 AUS02 3.01 
+data_source 3 app1 BEL02 4.12
+data_source 4 app1 DEN02 3.97
+data_source 5 app1 GER02 3.79
+data_source 6 app1 LUX02 4.10
+data_source 7 app1 NET02 3.95
+data_source 8 app1 NOR02 3.88
+data_source 9 app1 SIN02 0
+data_source 10 app1 SWE02 3.94
+data_source 11 app1 SWI02 3.87 
+data_source 2 app1 AUS02 2.70 
+data_source 3 app1 BEL02 4.07
+data_source 4 app1 DEN02 3.97
+data_source 5 app1 GER02 3.78
+data_source 6 app1 LUX02 4.12
+data_source 7 app1 NET02 4.02
+data_source 8 app1 NOR02 3.89
+data_source 9 app1 SIN02 0
+data_source 10 app1 SWE02 3.96
+data_source 11 app1 SWI02 3.66 
+eof

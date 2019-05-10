@@ -1,0 +1,75 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app8 templates/template_streaming_08.txt
+data_source 0 app8 A08 10
+data_source 1 app8 B08 30
+data_source 2 app8 C08 50
+data_source 3 app8 D08 70
+data_source 4 app8 E08 90
+new_app app81 templates/template_streaming_08_1.txt
+data_source 5 app81 A081 10
+data_source 6 app81 B081 30
+data_source 7 app81 C081 50
+data_source 8 app81 D081 70
+data_source 9 app81 E081 90
+data_source 0 app8 A08 20
+data_source 1 app8 B08 40
+data_source 2 app8 C08 60
+data_source 3 app8 D08 80
+data_source 4 app8 E08 100
+new_app app82 templates/template_streaming_08_2.txt
+data_source 10 app82 A082 10
+data_source 11 app82 B082 30
+data_source 12 app82 C082 50
+data_source 13 app82 D082 70
+data_source 14 app82 E082 90
+data_source 0 app8 A08 90
+data_source 1 app8 B08 70
+data_source 2 app8 C08 50
+data_source 3 app8 D08 30
+data_source 4 app8 E08 10
+data_source 5 app81 A081 20
+data_source 6 app81 B081 40
+data_source 7 app81 C081 60
+data_source 8 app81 D081 80
+data_source 9 app81 E081 100
+new_app app83 templates/template_streaming_08_3.txt
+data_source 15 app83 A083 10
+data_source 16 app83 B083 30
+data_source 17 app83 C083 50
+data_source 18 app83 D083 70
+data_source 19 app83 E083 90
+remove_app app8 
+data_source 5 app81 A081 90
+data_source 6 app81 B081 70
+data_source 7 app81 C081 50
+data_source 8 app81 D081 30
+data_source 9 app81 E081 10
+data_source 10 app82 A082 20
+data_source 11 app82 B082 40
+data_source 12 app82 C082 60
+data_source 13 app82 D082 80
+data_source 14 app82 E082 100
+data_source 15 app83 A083 20
+data_source 16 app83 B083 40
+data_source 17 app83 C083 60
+data_source 18 app83 D083 80
+data_source 19 app83 E083 100
+remove_app app81 
+data_source 10 app82 A082 90
+data_source 11 app82 B082 70
+data_source 12 app82 C082 50
+data_source 13 app82 D082 30
+data_source 14 app82 E082 10
+data_source 15 app83 A083 90
+data_source 16 app83 B083 70
+data_source 17 app83 C083 50
+data_source 18 app83 D083 30
+data_source 19 app83 E083 10
+remove_app app82 
+remove_app app83
+eof

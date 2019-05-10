@@ -1,0 +1,75 @@
+# Event types
+# new_app <appname> <templatefilename>
+# remove_app <appname>
+# data_source <nodenum> <appname> <componentname> <datarate>
+
+events:
+new_app app8 templates/template_streaming_08.txt
+data_source 0 app8 A08 100
+data_source 1 app8 B08 300
+data_source 2 app8 C08 500
+data_source 3 app8 D08 700
+data_source 4 app8 E08 900
+new_app app81 templates/template_streaming_08_1.txt
+data_source 5 app81 A081 100
+data_source 6 app81 B081 300
+data_source 7 app81 C081 500
+data_source 8 app81 D081 700
+data_source 9 app81 E081 900
+data_source 0 app8 A08 200
+data_source 1 app8 B08 400
+data_source 2 app8 C08 600
+data_source 3 app8 D08 800
+data_source 4 app8 E08 1000
+new_app app82 templates/template_streaming_08_2.txt
+data_source 10 app82 A082 100
+data_source 11 app82 B082 300
+data_source 12 app82 C082 500
+data_source 13 app82 D082 700
+data_source 14 app82 E082 900
+data_source 0 app8 A08 900
+data_source 1 app8 B08 700
+data_source 2 app8 C08 500
+data_source 3 app8 D08 300
+data_source 4 app8 E08 100
+data_source 5 app81 A081 200
+data_source 6 app81 B081 400
+data_source 7 app81 C081 600
+data_source 8 app81 D081 800
+data_source 9 app81 E081 1000
+new_app app83 templates/template_streaming_08_3.txt
+data_source 15 app83 A083 100
+data_source 16 app83 B083 300
+data_source 17 app83 C083 500
+data_source 18 app83 D083 700
+data_source 19 app83 E083 900
+remove_app app8 
+data_source 5 app81 A081 900
+data_source 6 app81 B081 700
+data_source 7 app81 C081 500
+data_source 8 app81 D081 300
+data_source 9 app81 E081 100
+data_source 10 app82 A082 200
+data_source 11 app82 B082 400
+data_source 12 app82 C082 600
+data_source 13 app82 D082 800
+data_source 14 app82 E082 1000
+data_source 15 app83 A083 200
+data_source 16 app83 B083 400
+data_source 17 app83 C083 600
+data_source 18 app83 D083 800
+data_source 19 app83 E083 1000
+remove_app app81 
+data_source 10 app82 A082 900
+data_source 11 app82 B082 700
+data_source 12 app82 C082 500
+data_source 13 app82 D082 300
+data_source 14 app82 E082 100
+data_source 15 app83 A083 900
+data_source 16 app83 B083 700
+data_source 17 app83 C083 500
+data_source 18 app83 D083 300
+data_source 19 app83 E083 100
+remove_app app82 
+remove_app app83
+eof
