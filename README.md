@@ -1,2 +1,4 @@
 # SPRING
-Placement, Scaling, and Routing for Pliable Virtualized Composed Services
+Scaling, Placement, and RoutING for Pliable Virtualized Composed Services
+
+
