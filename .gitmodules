@@ -1,0 +1,3 @@
+[submodule "B-SPRING"]
+	path = B-SPRING
+	url = git@github.com:CN-UPB/B-JointSP.git
