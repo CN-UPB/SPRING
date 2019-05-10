@@ -1,3 +1,6 @@
 [submodule "B-SPRING"]
 	path = B-SPRING
 	url = git@github.com:CN-UPB/B-JointSP.git
+[submodule "A-SPRING"]
+	path = A-SPRING
+	url = git@github.com:CN-UPB/flexible-service-placement.git
