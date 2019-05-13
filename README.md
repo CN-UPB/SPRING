@@ -12,9 +12,7 @@ Scaling, Placement, and RoutING for Pliable Virtualized Composed Services
 - Sevil Dräxler, Holger Karl, and Zoltan Adam Mann. Joint Optimization of Scaling and Placement of Virtual Network Services. In 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, CCGrid ’17, pages 365–370. IEEE Press, May 2017.
 - Sevil Dräxler, Holger Karl, and Zoltan Adam. Jasper: Joint optimization of scaling, placement, and routing of virtual network services. IEEE Transac- tions on Network and Service Management, 15(3):946–960, September 2018.
 
-**B-SPRING** (included here as a submodule that will take you to the original repository) is the imeplementation of the scaling, placement, and routing optimization and heuristic approaches for **bi-directional pliable services with load-proportional structures**. The following release is the evaluation code used in the following publications. Please cite our papers if you are using the code. The implementation of the approaches was mainly done by S. Schneider.
-
-https://github.com/CN-UPB/B-JointSP/releases/tag/v1.0
+**B-SPRING** (included here as a submodule that will take you to the original repository) is the imeplementation of the scaling, placement, and routing optimization and heuristic approaches for **bi-directional pliable services with load-proportional structures**. This is the evaluation code used in the following publications. Please cite our papers if you are using the code. The implementation of the approaches was mainly done by S. Schneider.
 
 - Sevil Dräxler, Stefan Schneider, and Holger Karl. Scaling and Placing Bidirectional Services with Stateful Virtual and Physical Network Functions. In 4th IEEE International Conference on Network Softwarization (NetSoft). IEEE, June 2018.
 
